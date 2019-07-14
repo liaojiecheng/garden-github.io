@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin:0;
+}
+    body{
+        background:white;
+    }
+    .cen{
+        margin:0  auto;
+    }
+
+    div.header{
+        width: 980px;
+        height:617px;
+        /* 927-10=617 */
+        padding-top: 10px;
+        background:url(../images/bg.jpg) no-repeat ;
+        font-size:16px "微软雅黑";
+
+    }
+    .header .nav{
+        width: 980px;
+        height:86px;
+       
+        background:url(../images/nav.jpg) no-repeat center center ;
+    }
+    .header .nav ul{
+         padding:44px 0 0 160px; 
+        list-style: none;
+    }
+    .header .nav ul li{
+        float:left;
+        margin-right:66px;
+    }
+    .header .nav ul .sec{
+        margin-right: 306px;
+    }
+    .header .nav ul li a{
+        color:#685649;
+        text-decoration: none;
+    }
+    .header .nav ul li a:hover,.header .nav ul li a:active{
+        color: red;
+        text-decoration: underline;
+    }
+    /* header end */
+
+
+    div.news{
+        width: 980px;
+        
+        overflow: hidden;
+        margin:0 auto;
+        background:url(../images/dongtai.jpg) no-repeat 63px 20px;
+        padding-top:140px;
+        
+    }
+    .news .news_con{
+        width: 284px;
+        float: left;
+        margin-left: 30px;
+
+    }
+    .news .news_con h2{
+        padding-left: 10px ;
+        height:50px;
+        line-height: 50px;
+        font:16px "微软雅黑";
+        font-weight: bold;
+    }
+    .news .news_con .one{
+        height:80px;
+        color:#bbb ;
+        border:1px solid #ddd;
+        font:12px/20px "微软雅黑";
+        text-indent:2em;
+    }
+    /* news end */
+    div.yangpian{  
+         /* left 90    60  60   */
+         width: 980px;
+         height:442px ;
+         margin: 0 auto;     
+         margin-top:40px; 
+         background:url(../images/xinshang.jpg) no-repeat;
+    }
+
+   
+
+     .yangpian .tutu{
+        width:156px;
+        height:237px;
+        float: left;
+        padding-top:173px;
+        /* padding-left:86px; */
+        margin-right: 56px;
+    }
+
+    .yangpian .tu{
+            margin-left: 86px;
+        }
+
+    div.foot{
+        margin-top:20px;
+        text-align:center;
+        line-height: 80px;
+        color:white;
+        height:80px;
+        background:url(../images/footer_bg.jpg) 
+    }
